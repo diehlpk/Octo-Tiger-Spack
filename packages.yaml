@@ -1,0 +1,7 @@
+packages:
+  all:
+    compiler: [gcc@7.4.0]
+  cuda:
+    paths:
+      cuda@10.1.243%gcc@7.4.0 arch=linux-rhel7-power9le: /sw/summit/cuda/10.1.243/
+    buildable: False
